@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+     <title>Bootstrap Tutorial</title>
+</head>
+<body>
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white">
+        <div class="container">
+    <a href="#" class="navbar-brand">Bootstrap Tutorial</a>
+           <button 
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#hero" class="nav-link">Features</a></li>
+                   
+                    <li class="nav-item dropdown">
+                        <a href="#learn" class="nav-link drpodown-toggle">Learn 
+
+                        </a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">Mistakes</a></li>
+                 
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section id="hero" class="bg-dark text-light text-center text-sm-start py-5">
+        <div class="container">
+            <div>
+                <div class="py-3">
+                    <h1 class="display-4"><span class="text-info">Learn Bootstrap</span></h1>
+                    
+                    <p class="py-1 lead">Bootstrap is a free framework used to facilitate the process of designing web pages for the developer, as it provides him with ready-made CSS classes that he can use to show the components that we add in the pages in a very beautiful and responsive manner with the page size (Buttons) , Text Fields, Drop Down Menus, and other helpful things such as alert messages that we show to the user. So the design that you rely on Bootstrap to build, will appear beautifully on the user's device, whether he is using a phone, computer, tablet, or any other device. This framework is supported by the Twitter company and is readily available and free for all and is always being developed and adding more features to it, and until this moment version 4.4.1 is its latest official version</p>
+                    <button class="btn btn-info">Get Started</button>
+                    
+                </div>
+                <img class="img-fluid w-50" src="//hero.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-3">
+                Features
+            </h2>
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark text-light mb-3">
+                        <div class="h1 mt-3">
+                            <i class="bi bi-arrow-down-left-square-fill"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title"> <span class="text-info">Responsive</span></h4>
+                            <p class="card-text">It is compatible with various screens</p>
+                            <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark text-light mb-3">
+                    <div class="h1 mt-3">
+                        <i class="bi bi-bounding-box"></i>
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title"> <span class="text-info">Easy Styling</span></h4>
+                        <p class="card-text">It has css templates ready</p>
+                        <a href="#" class="btn btn-info">Learn More</a>
+                    </div>
+                </div></div>
+                <div class="col-sm-12 col-md-6 col-lg-4"><div class="card bg-dark text-light">
+                    <div class="h1 mt-3">
+                        <i class="bi bi-bricks"></i>
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title"> <span class="text-info">Fast Working</span></h4>
+                        <p class="card-text">It saves a lot of effort</p>
+                        <a href="#" class="btn btn-info">Learn More</a>
+                    </div>
+                </div></div>
+            </div>
+        </div>
+    </section>
+   
+
+    <section id="learn" class="py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md">
+                    
+                    <h2>Technical Information</h2>
+                    <p>The Bootstrap framework is considered Front-End because it is used in the design of the user interface, not in its programming. In general, the Bootstrap framework consists of HTML, CSS and Javascript, and it depends on other available libraries such as Jquery and PopperJs, but of course you as a developer do not care at all about the nature of the relationship between them because it is the responsibility of the Bootstrap developers and not the developers who use it. For information, Bootstrap relies on Jquery for the effects it adds to designs and anything related to hiding and showing, and relies on PopperJs in order to improve the user experience for touch screens (Touch Screen), such as the user dealing with your page through his phone or any tablet.</p>
+                </div>
+                <div class="col-md">
+                    <h2>A good editor for Bootstrap </h2>
+                    <p> When working with the Bootstrap framework, you can use any editor that has comfortable colors and has plugins that make writing commands easier, such as VSCode, Atom, or any other editor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="next" class="py-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-center flex-row-reverse">
+                <div class="col-md">
+                    <h2>How to include the Bootstrap framework</h2>
+                    <p> Before starting with Bootstrap, you must include the Bootstrap libraries in any page you want to use it on. There are two main ways to do this: You download its files and add them to the project. You only include links to its files in the project so that it is automatically uploaded to it</p>
+                </div>
+                <div class="col-md">
+                    <h2>Bootstrap rules</h2>
+                    <p>1-Row classes must be inside .container for fixed width of the page or .container-fluid for full width 2-Row is used to make a horizontal group of columns. 3-Content is preferably placed inside the columns only</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-3">
+                Mistakes
+            </h2>
+            <div class="accordion accordion-flush" id="bt-faq">
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="question-one" data-bs-parent="#bt-faq">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-one">
+                            Mistake 1
+                        </button>
+                    </h5>
+                    <div class="accordion-collapse px-4 " id="answer-one">
+                        Believing that you don't need to know CSS to use this framework and that you don't need a designer.
+                    </div>
+                </div>
+
+                <h5 class="accordion-header" id="question-Two" data-bs-parent="#bt-faq">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-one">
+                        Mistake 2
+                    </button>
+                </h5>
+                <div class="accordion-collapse px-4 " id="answer-Two">
+                    Using everything that Bootstrap has to offer
+                </div>
+            </div>
+
+            <h5 class="accordion-header" id="question-Three" data-bs-parent="#bt-faq">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-one">
+                    Mistake 3
+                </button>
+            </h5>
+            <div class="accordion-collapse px-4" id="answer-Three">
+                Neglecting tools that make development easier with Bootstrap 
+            </div>
+        </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <footer class="py-5 bg-dark text-white text-center">
+            <div class="containter">
+                <p class="lead">
+                    graduate &copy; 2023 Braa Amoon
+                </p>
+                <a href="#">
+                    <i class="bi bi-arrow-up-circle h2"></i>
+                </a>
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
